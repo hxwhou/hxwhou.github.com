@@ -8,6 +8,15 @@ keyword: "HXWHOU, hxwhou, hxw, canlets, cruise-h, @hxwhou, DevelopNotes的博客
 url: "http://www.hxwhou.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+
+# SNS settings
+RSS: false
+zhihu_username:     hxwhou
+github_username:    hxwhou
+twitter_username:   hxwhou
+facebook_username:  hxwhou
+# linkedin_username:  firstname-lastname-idxxxx
+
 highlighter: rouge
 permalink: pretty
 paginate: 5
