@@ -1,0 +1,34 @@
+---
+layout:     post
+title:      "Hello 2017"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2017-06-22 00:00:00
+author:     "hxwhou"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
+## 前言
+
+HXW 的 Blog 就这么开通了。
+
+## 正文
+一直以来都希望又一个自己专属的博客，挂在自己的域名下。然后在上面记录自己生活的点滴。
+
+Today, it comes true. 从今天开始，我总算有自己的一亩三分地来好好写点东西了。
+
+作为一个爱捣（zuo）鼓（si）的程序员，时不时的会冒出各种奇怪的想法，把自己一顿折腾。从最初的CSDN博客，到前段时间的微信公众号，再到今天的Github pages。也总算认清了自己是那种喜欢极简风格的主。
+
+之所以没有在CSDN上面坚持写博文，还是不喜欢这种大众博客程序上各种烦乱的东西。时不时弹出的广告让人很是不爽。而且千篇一律的风格很不适合我的调性，So再次折腾起来，整一个干净清爽的blog开始自己的写（zhuang）作（bi）梦。
+
+-HXW 2017.7.22
+
+
+
+
+
