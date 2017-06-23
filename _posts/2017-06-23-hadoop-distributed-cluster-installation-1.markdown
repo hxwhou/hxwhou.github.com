@@ -28,4 +28,4 @@ chkconfig iptables off
 
 #### 禁用SELINUX
 #vi /etc/sysconfig/selinux
-![img](/img/in-post/20170623/002.png ＝1000)
+![img-w1000](/img/in-post/20170623/002.png)
