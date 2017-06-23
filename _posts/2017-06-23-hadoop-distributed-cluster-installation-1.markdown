@@ -18,14 +18,14 @@ tags:
 首先，进入root用户，在root账号下配置系统环境，并安装全局可用的（即所有用户可用的）jdk。
 #### 关闭Linux系统防火墙 
 ＃service iptables stop 或者  /etc/init.d/iptables stop 
-#查看防火墙状态 
+* 查看防火墙状态 
 service iptables status 
-#查看防火墙开机启动状态 
+* 查看防火墙开机启动状态 
 chkconfig iptables --list 
-#关闭防火墙开机启动 
+* 关闭防火墙开机启动 
 chkconfig iptables off 
 ![img](/img/in-post/20170623/001.png)
 
 #### 禁用SELINUX
-# vi /etc/sysconfig/selinux
+#vi /etc/sysconfig/selinux
 ![img](/img/in-post/20170623/002.png)
