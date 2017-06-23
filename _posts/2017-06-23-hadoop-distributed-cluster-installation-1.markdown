@@ -116,3 +116,7 @@ scp -r zookeeper-3.4.9 hdp036186:/home/hadoop/softwares/
 over～
 本想着一篇文章搞定，没想到写了这么长还没正式开始Hadoop的安装，实在是觉得有必要分成两篇来进行阐述了。
 So，下一篇我们继续＝＝＝
+					
+				==~~**本文为作者原创文章，未经许可请勿转载！**~~==
+					
+![img](/img/in-post/20170623/wechat-qrcode.jpg)
