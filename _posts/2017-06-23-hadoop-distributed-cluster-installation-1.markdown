@@ -67,17 +67,22 @@ tar -zxvf jdk-7u80-linux-x64.tar.gz -C /usr/local/java/
 通常我们在安装Hadoop集群的时候都不是在root用户下直接安装，所以接下来我们要在Linux下创建一个新用户（hadoop）。
 ![img](/img/in-post/20170623/005.png)
 切换到hadoop用户下，注意接下来关于hadoop集群的安装都将在此用户下进行。
-1)创建两个目录，分别用于存放压缩包和软件的安装
+
+#### 创建两个目录，分别用于存放压缩包和软件的安装
 在这里我创建了一个installPkg目录用来存放hadoop，zookeeper等压缩包，创建一个softwares目录用来安装软件。
 ![img](/img/in-post/20170623/006.png)
-2)下载安装包并解压
+#### 下载安装包并解压
 从官网下载相应的安装包，因为我们要使用zookeeper实现Hadoop的HA的故障转移（后面会详细介绍），所以可以看到我们下载了两个安装包（hadoop-2.7.2和zookeeper-3.4.9）.
 ![img](/img/in-post/20170623/007.png)
 将它们解压到指定的目录下，这里是解压到softwares目录下。
 
 ## 3. Hadoop集群安装规划
-Hadoop2.0中的HDFS HA通常由两个NameNode组成，一个处于active状态，另一个处于standby状态。Active NameNode对外提供服务，而Standby NameNode则不对外提供服务，仅同步active namenode的状态，以便能够在它失败时快速进行切换。hadoop2.0官方提供了两种HDFS HA的解决方案，一种是NFS，另一种是QJM。这里我们使用简单的QJM。在该方案中，主备NameNode之间通过一组JournalNode同步元数据信息，一条数据只要成功写入多数JournalNode即认为写入成功，通常需要配置奇数个JournalNode。这里还需要配置一个Zookeeper集群，用于ZKFC（DFSZKFailoverController）故障转移，当Active NameNode挂掉了，会自动切换Standby NameNode为Active状态。<p>
-在之前的Hadoop2.0发布版中YARN ResourceManager只有一个，存在单点故障，hadoop-2.4.1解决了这个问题，有两个ResourceManager，一个是Active，一个是Standby，状态由zookeeper进行协调。<p>
+Hadoop2.0中的HDFS HA通常由两个NameNode组成，一个处于active状态，另一个处于standby状态。Active NameNode对外提供服务，而Standby NameNode则不对外提供服务，仅同步active namenode的状态，以便能够在它失败时快速进行切换。
+
+hadoop2.0官方提供了两种HDFS HA的解决方案，一种是NFS，另一种是QJM。这里我们使用简单的QJM。在该方案中，主备NameNode之间通过一组JournalNode同步元数据信息，一条数据只要成功写入多数JournalNode即认为写入成功，通常需要配置奇数个JournalNode。这里还需要配置一个Zookeeper集群，用于ZKFC（DFSZKFailoverController）故障转移，当Active NameNode挂掉了，会自动切换Standby NameNode为Active状态。
+
+在之前的Hadoop2.0发布版中YARN ResourceManager只有一个，存在单点故障，hadoop-2.4.1解决了这个问题，有两个ResourceManager，一个是Active，一个是Standby，状态由zookeeper进行协调。
+
 下面给出一个简单的Hadoop分布式集群安装规划，仅供参考，具体的实践中还是要根据实际情况进行相应的调整。
 ![img](/img/in-post/20170623/008.png)
 
