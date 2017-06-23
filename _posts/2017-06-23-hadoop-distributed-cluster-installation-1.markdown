@@ -63,7 +63,7 @@ tar -zxvf jdk-7u80-linux-x64.tar.gz -C /usr/local/java/
 ![img](/img/in-post/20170623/004.png)
 以上就是root用户下需要的基础配置，所有hadoop集群的Node都要进行相同的配置。
 
-##2. 创建hadoop用户
+## 2. 创建hadoop用户
 通常我们在安装Hadoop集群的时候都不是在root用户下直接安装，所以接下来我们要在Linux下创建一个新用户（hadoop）。
 ![img](/img/in-post/20170623/005.png)
 切换到hadoop用户下，注意接下来关于hadoop集群的安装都将在此用户下进行。
@@ -84,29 +84,29 @@ Hadoop2.0中的HDFS HA通常由两个NameNode组成，一个处于active状态�
 **下面我们按照上面的集群安装规划一步步完成集群的搭建。**
 
 ## 4. 安装Zookeeper集群
-#### 1）解压zookeeper安装包
+#### 解压zookeeper安装包
 从官网下载zookeeper的安装包，解压到指定路径
 ```
 tar -zxvf zookeeper-3.4.9.tar.gz -C ../softwares/
 ```
 注意：这里是在hdp036184节点上进行配置，其余节点上zookeeper安装会经由此节点拷贝并做相应的修改即可。
-#### 2）修改配置文件
+#### 修改配置文件
 ![img](/img/in-post/20170623/009.png)
 修改dataDir到zookeeper安装路径下，并在最后添加zookeeper集群信息。
 ![img](/img/in-post/20170623/010.png)
 在上面配置的dataDir所对应的目录下新建一个myid文件，并写入值1.
 ![img](/img/in-post/20170623/011.png)
-#### 3）拷贝到其他节点
+#### 拷贝到其他节点
 将配置好的zookeeper依次拷贝到其他节点上
 ```
 scp -r zookeeper-3.4.9 hdp036185:/home/hadoop/softwares/
 scp -r zookeeper-3.4.9 hdp036186:/home/hadoop/softwares/
 ```
-#### 4）修改其余节点上的myid
+#### 修改其余节点上的myid
 分别将hdp036185和hdp036186上的myid修改为2和3.
 ![img](/img/in-post/20170623/012.png)
 至此，zookeeper的配置就完成了，可以启动zookeeper进行验证。
-#### 5）验证zookeeper集群
+#### 验证zookeeper集群
 分别在三个节点上启动zookeeper，查看其状态，其中一个节点是leader，其余两个是follower。
 ![img](/img/in-post/20170623/013.png)
 注意，在启动zookeeper集群之前必须保证相互之间是能够用hostname ping通的，如果ping ［hostname］不通，就需要查看/etc/hosts是否配置正确。
