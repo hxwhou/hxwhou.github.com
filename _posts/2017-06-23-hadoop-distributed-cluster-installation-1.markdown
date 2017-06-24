@@ -1,10 +1,11 @@
 ---
 layout:     post
-title:      "Hadoop分布式集群安装（一）"
+title:      "Hadoop分布式集群安装"
 subtitle:   " \"前期准备\""
 date:       2017-06-23 00:00:00
 author:     "hxwhou"
 header-img: "img/post-bg-hadoop-1.jpg"
+header-mask: 0.1
 wechat-qrcode: "img/wechat-qrcode.jpg"
 catalog: true
 tags:
