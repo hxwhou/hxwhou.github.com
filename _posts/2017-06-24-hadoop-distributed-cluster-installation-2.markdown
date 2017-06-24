@@ -5,6 +5,7 @@ subtitle:   " \"进入正题\""
 date:       2017-06-24 00:00:00
 author:     "hxwhou"
 header-img: "img/post-bg-hadoop-2.jpg"
+wechat-qrcode: "img/wechat-qrcode.jpg"
 catalog: true
 tags:
     - hadoop
