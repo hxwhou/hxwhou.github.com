@@ -319,9 +319,4 @@ sbin/hadoop-daemon.sh start namenode  单独启动一个namenode进程
 sbin/hadoop-daemon.sh start zkfc   单独启动一个zkfc进程
 bin/yarn rmadmin -getServiceState rm2 获取一个resourcemanager节点的HA状态
 ```
----
 
-
-				==~~**本文为作者原创文章，未经许可请勿转载！**~~==
-					
-![img](/img/in-post/20170623/wechat-qrcode.jpg)

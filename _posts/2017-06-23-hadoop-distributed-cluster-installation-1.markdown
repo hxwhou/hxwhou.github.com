@@ -5,6 +5,7 @@ subtitle:   " \"前期准备\""
 date:       2017-06-23 00:00:00
 author:     "hxwhou"
 header-img: "img/post-bg-hadoop-1.jpg"
+wechat-qrcode: "img/wechat-qrcode.jpg"
 catalog: true
 tags:
     - hadoop
@@ -123,6 +124,3 @@ over～
 本想着一篇文章搞定，没想到写了这么长还没正式开始Hadoop的安装，实在是觉得有必要分成两篇来进行阐述了。
 So，[下一篇](http://www.hxwhou.com/2017/06/24/hadoop-distributed-cluster-installation-2/)我们继续👉👉👉
 					
-				==~~**本文为作者原创文章，未经许可请勿转载！**~~==
-					
-![img](/img/in-post/20170623/wechat-qrcode.jpg)

@@ -60,6 +60,10 @@ layout: default
 
 				{{ content }}
 
+                <hr>
+                <p class="text-center" style="color:red;">本文为作者原创文章，未经许可请勿转载!</p>
+                <img src="{{ site.baseurl }}/{{ page.wechat-qrcode}}">
+               
                 <hr style="visibility: hidden;">
 
                 <ul class="pager">
@@ -81,6 +85,7 @@ layout: default
                     {% endif %}
                 </ul>
 
+                <hr style="visibility: hidden;">
 
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
