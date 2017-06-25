@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gradle构件多模块项目"
+title:      "Gradle构建多模块项目"
 subtitle:   " \"Multi project build with gradle\""
 date:       2017-06-25 15:00:00
 author:     "hxwhou"
