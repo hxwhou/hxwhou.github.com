@@ -3,10 +3,10 @@ title: Houxw Blog
 SEOTitle: HXW的博客 | Houxw Blog
 header-img: img/home-bg.jpg
 email: hxwhou@163.com
-description: "记录工作、生活中的点滴 | DevelopNotes，Web & BigData Lover，Software Engineer | 这里是 @hxwhou DevelopNotes的个人博客，与你一起发现更大的世界。"
-keyword: "HXWHOU, hxwhou, hxw, canlets, cruise-h, @hxwhou, DevelopNotes的博客, DevelopNotes Blog, 博客, 个人网站, 互联网, 大数据, 程序员"
+description: "记录工作、生活中的点滴 | hxwhou, Java Web & BigData Lover, Software Engineer | 这里是 @hxwhou @Houxw @HXW个人博客，与你一起发现更大的世界。个人微信公众号DevelopNotes，欢迎关注，谢谢！"
+keyword: "HXWHOU, hxwhou, HXW, hxw, canlets, cruise-h, @hxwhou, HXW的博客, Houxw Blog, hxwhou Blog, DevelopNotes微信公众号, 博客, 个人网站, 互联网, 大数据, 程序员"
 url: "http://www.hxwhou.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
@@ -51,8 +51,8 @@ netease_comment: true
 # ba_track_id: [your track id]
 
 # Google Analytics
-#ga_track_id: ''            # Format: UA-xxxxxx-xx
-#ga_domain: hxwhou.com
+ga_track_id: 'UA-101624183-1'            # Format: UA-xxxxxx-xx
+ga_domain: hxwhou.com
 
 
 
