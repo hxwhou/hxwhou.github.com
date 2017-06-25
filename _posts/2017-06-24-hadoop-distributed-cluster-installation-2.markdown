@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Hadoop分布式集群安装（二）"
+title:      "Hadoop分布式集群安装"
 subtitle:   " \"进入正题\""
 date:       2017-06-24 00:00:00
 author:     "hxwhou"
