@@ -6,7 +6,7 @@ email: hxwhou@163.com
 description: "记录工作、生活中的点滴 | hxwhou, Java Web & BigData Lover, Software Engineer | 这里是 @hxwhou @Houxw @HXW个人博客，与你一起发现更大的世界。个人微信公众号DevelopNotes，欢迎关注，谢谢！"
 keyword: "HXWHOU, hxwhou, HXW, hxw, canlets, cruise-h, @hxwhou, HXW的博客, Houxw Blog, hxwhou Blog, DevelopNotes微信公众号, 博客, 个人网站, 互联网, 大数据, 程序员"
 url: "http://www.hxwhou.com"              # your host, for absolute URL
-baseurl: "/"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
