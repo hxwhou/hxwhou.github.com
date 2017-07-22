@@ -58,7 +58,6 @@ python2 -m ipykernel install --user
 ```
 ## 学习资源
 本文给出了许多扩展链接供参考，这里汇总如下，供您参考：
-
 1.[Jupyter Notebook官网](http://jupyter.org/)
 2.[文学编程 Literate programming](http://www.literateprogramming.com/)
 3.[IPython官网](https://ipython.org/)
