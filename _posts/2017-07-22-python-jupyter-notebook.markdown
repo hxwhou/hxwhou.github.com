@@ -5,7 +5,7 @@ subtitle:   " \"Learning python with jupyter notebook\""
 date:       2017-07-22 18:00:00
 author:     "hxwhou"
 header-img: "img/post-bg-jupyter-notebook.png"
-header-mask: 0.2
+header-mask: 0.4
 wechat-qrcode: "img/wechat-qrcode.jpg"
 catalog: true
 tags:
