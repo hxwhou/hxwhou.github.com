@@ -56,6 +56,9 @@ If you’re running Jupyter on Python 3, you can set up a Python 2 kernel like t
 python2 -m pip install ipykernel
 python2 -m ipykernel install --user
 ```
+## 学习资源
+1. http://nbviewer.jupyter.org/
+2. https://www.zhihu.com/question/37490497
 
 ## Q&A:
 使用jupyter的过程中出现的一些问题与解决方案：
