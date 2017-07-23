@@ -57,15 +57,16 @@ python2 -m pip install ipykernel
 python2 -m ipykernel install --user
 ```
 ## 学习资源
-本文给出了许多扩展链接供参考，这里汇总如下，供您参考：
-1.[Jupyter Notebook官网](http://jupyter.org/)
-2.[文学编程 Literate programming](http://www.literateprogramming.com/)
-3.[IPython官网](https://ipython.org/)
-4.[LaTeX官网](https://www.latex-project.org/)
-5.[LaTeX语法：A Primer on Using LaTeX in Jupyter Notebooks](http://data-blog.udacity.com/posts/2016/10/latex-primer/)
-6.[魔术关键字：Built-in magic commands](http://ipython.readthedocs.io/en/stable/interactive/magics.html)
+本文给出了许多扩展链接供参考，这里汇总如下，供您参考： 
+1.[Jupyter Notebook官网](http://jupyter.org/) 
+2.[文学编程 Literate programming](http://www.literateprogramming.com/) 
+3.[IPython官网](https://ipython.org/) 
+4.[LaTeX官网](https://www.latex-project.org/) 
+5.[LaTeX语法：A Primer on Using LaTeX in Jupyter Notebooks](http://data-blog.udacity.com/posts/2016/10/latex-primer/) 
+6.[魔术关键字：Built-in magic commands](http://ipython.readthedocs.io/en/stable/interactive/magics.html) 
 7.[Jupyter Notebook示例](http://nbviewer.jupyter.org/) 
-8.[为什么使用jupyter？](https://www.zhihu.com/question/37490497)
+8.[为什么使用jupyter？](https://www.zhihu.com/question/37490497) 
+
 如果你现在迫不及待地想试一试 Jupyter Notebook了，请参考系列文章[Python数据分析的起手式](http://www.jianshu.com/p/39eb230e6f15)
 
 ## Q&A:
